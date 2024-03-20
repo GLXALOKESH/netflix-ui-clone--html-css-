@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100vw; 
+    height: 656px;
+    background-image: url(cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: cover;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     
+}
+.shade{
+    width: 100vw;
+    height: 656px;
+    background-color: black;
+    opacity: 70%;
+}
+.division{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(41, 40, 40);
+    position: absolute;
+    bottom: 0px;
+}
+div.container{
+    max-width: 1024px;
+    height: 646px;
+    /* background-color: red; */
+    position: absolute;
+    top: 0px;
+    overflow: hidden;
+
+    
+}
+nav{
+    /* background-color: wheat; */
+    width: 100vw;
+    max-width: 1024px;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 24px 33px;
+    
+    overflow: hidden;
+    /* justify-content: end; */
+    /* gap: 50px; */
+}
+nav img{
+    height: 2.5rem;
+}
+.drop-down{
+    
+    width: fit-content;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 0px 10px;
+    gap: 4px;
+    border: 1px solid rgb(121, 120, 120);
+    backdrop-filter: blur(3px);
+    color: white;
+    background-color: rgba(31, 29, 29, 0.7);
+    margin-left: auto;  
+}
+
+.drop-down img:nth-child(1){
+    height: 18px;
+}
+.drop-down p:nth-child(2){
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+.drop-down img:nth-child(3){
+    /* height: 50px; */
+    width: 22px;
+    
+}
+nav .sign-in{
+    background-color: #E50914;
+    width: 75px;
+    display: grid;
+    place-items: center;
+    height: 30px;
+    border: 1px solid #E50914;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-left: 25px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+    &:hover{
+        background-color: #c2060f;
+    }
+}
