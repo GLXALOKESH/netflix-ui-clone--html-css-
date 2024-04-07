@@ -467,3 +467,24 @@ border-radius: 5px;
 }
 
 /* <-- section4 End--> */
+
+/* <--section5 start--> */
+
+.children-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: green;
+}
+.text-section5{
+    width: 50%;
+ }
+.children-image img{
+    width: 30rem;
+}
+
+/* <--section5 End--> */
