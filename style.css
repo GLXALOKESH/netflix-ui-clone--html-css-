@@ -478,13 +478,29 @@ border-radius: 5px;
     position: relative;
     box-sizing: border-box;
     padding: 10px;
-    background-color: green;
 }
 .text-section5{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    padding: 35px;
+    padding-left: 20px;
+    gap: 20px;
+    color: white;
  }
 .children-image img{
     width: 30rem;
+}
+.text-section5 h3{
+    font-family: 'poppins';
+    font-size: 2.813rem;
+    line-height: 50px;
+      font-weight: 700;
+}
+.text-section5 p{
+    font-size: 1.313rem;
 }
 
 /* <--section5 End--> */
